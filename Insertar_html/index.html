@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>insertar _HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Vamos a insertar  una página html en otra utilizando JavaScript. </h1>
+    <button id="boton2">Resetear Página</button>
+   <button onclick="loadUser('segundapa.html')">Pulsa para Insertar </button>
+
+    <!-- AQUI SE COLOCARÁ LA SEGUNDA PÁGINA -->
+    <div class="user-detail">
+        <iframe id="userDetailFrame" style="width: 100%; height: 600px; border: none;"></iframe>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
